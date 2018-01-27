@@ -22,6 +22,10 @@ namespace WinDirectoryMirrorApp
             SetUp();
             sourceGrid.Rows.Add();
             mirrorGrid.Rows.Add();
+            Version version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+            DateTime buildDate = new DateTime(2000, 1, 1).AddDays(version.Build).AddSeconds(version.Revision * 2);
+            string displayableVersion = $"{version} ({buildDate})";
+            this.Text = "Sincronizador de Archivos [Versión: " + displayableVersion + "]";
         }
 
         private void SetUp()
@@ -231,12 +235,6 @@ namespace WinDirectoryMirrorApp
             _ctrl.Save();
             save_button.Enabled = false;
         }
-
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-
-        }
- 
 
         private void notifyIcon_MouseDoubleClick(object sender, MouseEventArgs e)
         {
