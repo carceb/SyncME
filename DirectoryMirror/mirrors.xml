@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<directorymirrors>
+  <directorymirror name="dmmmmmm" timer="2500" buffer="16" source="D:\_source" mirror="D:\_mirror" timestamp="0001-01-01 00:00:01" />
+  <directorymirror name="dm1" timer="2000" buffer="4" source="G:\_DirectoryMiror\_src" mirror="G:\_DirectoryMiror\_miror" timestamp="0001-01-01 00:00:02" />
+  <directorymirror name="dm2" timer="2000" buffer="8" source="G:\_DirectoryMiror\_src2" mirror="G:\_DirectoryMiror\_miror2" timestamp="0001-01-01 00:00:03" />
+</directorymirrors>
