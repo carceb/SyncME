@@ -113,11 +113,11 @@
             // 
             this.timer_label.AutoSize = true;
             this.timer_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timer_label.Location = new System.Drawing.Point(408, 12);
+            this.timer_label.Location = new System.Drawing.Point(385, 12);
             this.timer_label.Name = "timer_label";
-            this.timer_label.Size = new System.Drawing.Size(51, 13);
+            this.timer_label.Size = new System.Drawing.Size(64, 13);
             this.timer_label.TabIndex = 0;
-            this.timer_label.Text = "Tiempo : ";
+            this.timer_label.Text = "Cronometro:";
             // 
             // currentState_label
             // 
@@ -134,7 +134,7 @@
             // 
             this.timer_value.AutoSize = true;
             this.timer_value.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timer_value.Location = new System.Drawing.Point(455, 12);
+            this.timer_value.Location = new System.Drawing.Point(471, 13);
             this.timer_value.Name = "timer_value";
             this.timer_value.Size = new System.Drawing.Size(35, 13);
             this.timer_value.TabIndex = 0;

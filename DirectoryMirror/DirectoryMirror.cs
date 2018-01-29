@@ -118,7 +118,7 @@ namespace DM
             MirrorEventArgs args = new MirrorEventArgs();
             args.FSWname = this.FriendlyName;
             args.TimeStamp = DateTime.Now;
-            args.Info = "Timer elapsed";
+            args.Info = "Cronometro Detenido";
             DMinfoEvent(args);
             if (_IOlist.Count > 0)
             {
