@@ -58,7 +58,7 @@
             // 
             this.SoftRb.AutoSize = true;
             this.SoftRb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SoftRb.Location = new System.Drawing.Point(43, 91);
+            this.SoftRb.Location = new System.Drawing.Point(43, 113);
             this.SoftRb.Name = "SoftRb";
             this.SoftRb.Size = new System.Drawing.Size(173, 19);
             this.SoftRb.TabIndex = 1;
@@ -70,7 +70,7 @@
             // OkButton
             // 
             this.OkButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.OkButton.Location = new System.Drawing.Point(154, 284);
+            this.OkButton.Location = new System.Drawing.Point(155, 231);
             this.OkButton.Name = "OkButton";
             this.OkButton.Size = new System.Drawing.Size(57, 23);
             this.OkButton.TabIndex = 3;
@@ -88,7 +88,7 @@
             this.RbGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RbGroupBox.Location = new System.Drawing.Point(44, 12);
             this.RbGroupBox.Name = "RbGroupBox";
-            this.RbGroupBox.Size = new System.Drawing.Size(276, 266);
+            this.RbGroupBox.Size = new System.Drawing.Size(276, 205);
             this.RbGroupBox.TabIndex = 4;
             this.RbGroupBox.TabStop = false;
             this.RbGroupBox.Text = "Opciones";
@@ -102,11 +102,12 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "(¡CUIDADO! Elimina todos los archivos y carpetas en el directorio principal y en " +
     "el directorio espejo)";
+            this.label3.Visible = false;
             // 
             // label2
             // 
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(57, 113);
+            this.label2.Location = new System.Drawing.Point(57, 135);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(209, 58);
             this.label2.TabIndex = 4;
@@ -125,20 +126,21 @@
             // 
             this.DeleteRb.AutoSize = true;
             this.DeleteRb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DeleteRb.Location = new System.Drawing.Point(43, 174);
+            this.DeleteRb.Location = new System.Drawing.Point(43, 194);
             this.DeleteRb.Name = "DeleteRb";
             this.DeleteRb.Size = new System.Drawing.Size(86, 19);
             this.DeleteRb.TabIndex = 2;
             this.DeleteRb.Tag = "2";
             this.DeleteRb.Text = "Borrar todo";
             this.DeleteRb.UseVisualStyleBackColor = true;
+            this.DeleteRb.Visible = false;
             this.DeleteRb.Click += new System.EventHandler(this.Rb_Click);
             // 
             // RebuildForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 319);
+            this.ClientSize = new System.Drawing.Size(364, 266);
             this.Controls.Add(this.RbGroupBox);
             this.Controls.Add(this.OkButton);
             this.MaximizeBox = false;
