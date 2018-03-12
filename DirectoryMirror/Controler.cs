@@ -30,7 +30,7 @@ namespace DM
         // Delegate and event to bubble up DM messages
         public delegate void MirrorEventDelegate(MirrorEventArgs info);
         public event MirrorEventDelegate MirrorEvent;
-        // Delegate and event to bubble up DM error messages
+        // Delegate and event to bubble up DM error messages//
         public delegate void MirrorErrorDelegate(MirrorEventArgs info);
         public event MirrorErrorDelegate MirrorError;
 
